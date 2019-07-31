@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+.input-group {
+  margin-top: 30px;
+}
+
+textarea {
+  display: block;
+  height: 400px;
+  overflow: auto;
+}
+
+input {
+  display: block
+}
+
+label {
+  margin-left: 20px
+}
+
+#test {
+  margin-bottom: 300px;
+}
+
+.image-div {
+  text-align:left;
+  position: relative;
+  max-height: 440px;
+  display: inline-block;
+}
+
+.image-div .lb-period {
+  position: absolute;
+  z-index: 998;
+  background: rgba(66, 133, 244,0.10);
+}
+
+.image-div .lb-active {
+  position: absolute;
+  z-index: 999;
+  background: rgba(66, 133, 244,0.15);
+}
+
+.image-div .link {
+  position: absolute;
+  z-index: 10000;
+  background: #67608F;
+  font-weight: 400;
+  border-radius: 15px;
+}
+
+.legends-period {
+  min-width: 350px;
+  display: flex;
+  justify-content: center;
+}
+
+.legends-kw {
+  min-width: 350px;
+  display: flex;
+  justify-content: center;
+}
+
+.l-rectangle {
+  width: 53px;
+  height: 30px;
+  border: 2px solid;
+  margin-right: 10px;
+}
+
+.l-row {
+  margin-top: 30px;
+  font-weight: 300;
+}
+
+.legends {
+  font-size: 18px;
+}
+
+.l-line {
+  display: flex;
+  aling-items: center;
+  margin-bottom: 15px;
+}
+
+.l-span {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 30px;
+}
