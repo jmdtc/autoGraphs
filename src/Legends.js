@@ -6,7 +6,7 @@ import './App.css';
 class Legends extends Component {
   
   render() {
-    const spanText = this.props.orderedBy === "1M" ? "Links / month" : "Links / 2 weeks" 
+    const spanText = this.props.orderedBy === "1M" ? "Number of links / month" : "Number of links / 2 weeks" 
     const styles = {
       oneThree: {
         backgroundColor: "#FF8612",

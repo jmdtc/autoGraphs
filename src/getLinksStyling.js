@@ -23,4 +23,5 @@ const getLinksStyling = (linksByWeek, widthPercentage) => {
   return linksStyles
 }
 
+// coucou Robert
 export default getLinksStyling
